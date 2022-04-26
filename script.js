@@ -1,5 +1,5 @@
 function getAdmins(map){
-    let admins =[];
+    let admins = [];
     for ([key, value] of map) {
         if (value === 'Admin') {
             admins.push(key)
@@ -15,4 +15,4 @@ usuarios.set('Erik', 'Admin');
 usuarios.set('Marcelo', 'User');
 usuarios.set('Mirela', 'Admin');
 
-console.log (getAdimns(usuarios));
+console.log(getAdimns(usuarios));
